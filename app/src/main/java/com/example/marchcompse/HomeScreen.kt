@@ -3,6 +3,7 @@ package com.example.marchcompse
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,7 +26,7 @@ fun HomeScreen(navController: NavHostController) {
         Text(text = "Home Screen4")
 
         Button(onClick = {
-            navController.navigate("details")
+            navController.navigate("listScreen")
         }) {
 
             Text("Click me")

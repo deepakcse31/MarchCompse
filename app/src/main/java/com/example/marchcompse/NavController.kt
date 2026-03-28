@@ -17,5 +17,8 @@ fun NavController(){
         composable("details"){
             DetailsScreen()
         }
+        composable("listScreen"){
+            List()
+        }
     }
 }
